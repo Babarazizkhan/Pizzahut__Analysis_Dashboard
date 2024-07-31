@@ -31,7 +31,7 @@ join order_details
 on order_details.pizza_id = pizzas.pizza_id
 group by pizza_types.name order by order_quantity desc limit 5;
 result the hawai pizza 20453 </br>
-#intermiate Queries 
+# intermiate Queries 
 <br>Join the necessary tables to find the total quantity of each pizza category ordered.
 Determine the distribution of orders by hour of the day.
 Join relevant tables to find the category-wise distribution of pizzas.
