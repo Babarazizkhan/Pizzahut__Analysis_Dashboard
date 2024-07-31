@@ -4,8 +4,9 @@ Retrieve the total number of orders place
 Calculate the total revenue generated from pizza sales.
 dentify the highest-priced pizza.
 Identify the most common pizza size ordered
-result the most pizaa order is large pizzaa 
-     Queires with Answers <br>
+result the most pizaa order is large pizzaa <br>
+     Queires with Answers </br>
+     <br>
  select count(order_id) as total_orders from orders;
 -- result 21350 </br>
 <br>
