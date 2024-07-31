@@ -1,5 +1,5 @@
 # Pizzahut__Analysis_Dashboard
-     Basics Queries
+# Basics Queries
 Retrieve the total number of orders place
 Calculate the total revenue generated from pizza sales.
 dentify the highest-priced pizza.
@@ -31,8 +31,7 @@ join order_details
 on order_details.pizza_id = pizzas.pizza_id
 group by pizza_types.name order by order_quantity desc limit 5;
 result the hawai pizza 20453 </br>
-     intermiate Queries 
- # Intermediate:
+#intermiate Queries 
 <br>Join the necessary tables to find the total quantity of each pizza category ordered.
 Determine the distribution of orders by hour of the day.
 Join relevant tables to find the category-wise distribution of pizzas.
